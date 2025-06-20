@@ -1,0 +1,81 @@
+.container {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--eerie-black);
+    width: 60%;
+    min-width: 365px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.container h1 {
+    color: white;
+    font-size: 32px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 300;
+}
+
+.formCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4vh;
+}
+
+.branchPreview {
+    margin-top: 1vh;
+    background-color: white;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.branchPreviewText h1{
+    color: var(--rich-black);
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+    text-align: left;
+    margin: 0;
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
+
+.branchPreviewText p {
+    color: var(--rich-black);
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 90%;
+    text-align: left;
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
+
+.branchInputs {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.btnRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    width: 80%;
+}

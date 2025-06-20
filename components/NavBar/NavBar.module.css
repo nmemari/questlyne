@@ -1,0 +1,20 @@
+.container {
+    position: fixed;
+    bottom: 0; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--rich-black);
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.iconCont {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}

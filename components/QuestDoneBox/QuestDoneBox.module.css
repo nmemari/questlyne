@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    margin-left: 5vh;
+}
+
+.titleBox h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.btnBox {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    margin-right: 5vh;
+}
+
+.btnBox img:hover {
+    cursor: pointer;
+}

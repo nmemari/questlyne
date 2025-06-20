@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--rich-black);
+    width: 60%;
+    min-width: 300px;
+    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+}
+
+.questHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.questTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    min-width: 170px;
+    margin-left: 2vh;
+}
+
+.questTitle h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: var(--rich-black);
+}
+
+.questHead input {
+    margin-right: 2vh;
+}
+
+.questBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.subquest {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.subquestHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+
+.subquestHead h2 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    margin-left: 2vh;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.subquestHead input {
+    margin-right: 2vh;
+}
+
+.subquest p {
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    font-weight: 100;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    text-align: left;
+    width: 94%;
+}

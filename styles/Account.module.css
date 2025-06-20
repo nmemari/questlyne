@@ -1,0 +1,51 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.classCont {
+    width: 60%;
+    min-width: 300px;
+    min-height: 60vh;
+    background-color: var(--eerie-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15vh;
+}
+
+.classCont h1 {
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.accountHead {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.accountHeadLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5vh;
+    margin-left: 5vh;
+    width: 30%;
+}
+
+.accountHeadLeft p {
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+}
