@@ -3,7 +3,7 @@ A web app designed as a vessel for the basic implemtation of C.R.U.D. (Create, R
 
 It's time to treat your life like a video game and create questlines for yourself to live your life as fulfilling as possible.
 
-[Take a look at Questlyne](questlyne.vercel.app)
+[Take a look at Questlyne](https://questlyne.vercel.app)
 
 ## Programming Concepts Explored
 * Create, Read, Update, Delete
